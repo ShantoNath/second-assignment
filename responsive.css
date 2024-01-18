@@ -1,0 +1,19 @@
+/* @media screen and (max-width:676px) { */
+    nav{
+        flex-direction: row;
+    }
+    .travel-name-container{}
+    }
+    .banner-btn-item{
+        flex-direction: column;
+        padding: 40px;
+    }
+    /* .menu-item-container{ */
+        display: none;
+    }
+    .header-banner-container{
+        /* width: 60%; */
+    }
+
+    }
+    
