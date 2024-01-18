@@ -22,6 +22,7 @@
     font-weight: 700;
 }
 
+/* Nav section starts here  */
 nav {
     max-width: 1200px;
     min-height: 140px;
@@ -35,11 +36,9 @@ nav {
     width: 50%;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     text-align: center;
     gap: 20px;
     color: #131318;
-    font-family: Mulish;
     font-size: 36px;
     font-style: normal;
     font-weight: 800;
@@ -52,7 +51,7 @@ nav {
     object-fit: cover;
 }
 
-.travel-name-color {
+.important {
     color: #FF5400;
 
 }
@@ -81,6 +80,8 @@ nav {
     color: #FF5400;
 
 }
+/* Nav section ends here  */
+
 
 /* banner-section-starts */
 .header-banner-container {
@@ -101,7 +102,6 @@ nav {
 
 .banner-text h1 {
     color: #FFF;
-    /* font-family: Mulish; */
     font-size: 64px;
     font-style: normal;
     font-weight: 800;
@@ -126,7 +126,6 @@ nav {
     left: 220px;
     display: flex;
     padding: 16px;
-    /* align-items: flex-start; */
     gap: 24px;
 }
 
@@ -158,7 +157,6 @@ button {
     color: #FFF;
     font-size: 16px;
     font-style: normal;
-    /* font-weight: 700; */
     line-height: normal;
 }
 
@@ -172,6 +170,9 @@ button {
     right: 20px;
     top: 13px;
 }
+/* banner-section-ends */
+
+
 
 /* tours section starts */
 .tour-section-container {
@@ -179,7 +180,6 @@ button {
     min-height: 550px;
     margin: 100px auto;
     display: flex;
-    /* border: 2px solid green; */
     justify-content: space-between;
 }
 
@@ -229,6 +229,8 @@ button {
 
 /* tours section ends here  */
 
+
+
 /* Destination section starts here  */
 
 .destination-section {
@@ -267,7 +269,6 @@ button {
     display: flex;
     justify-content: space-between;
     margin-bottom: 22px;
-    /* margin-right: 22px; */
 }
 
 .img-row-1 .img1 {
@@ -408,6 +409,7 @@ button {
     background: rgba(251, 181, 99, 0.05);
     width: 573px;
     height: 284px;
+    box-shadow: 2px 3px 4px rebeccapurple;
 
 }
 
@@ -443,6 +445,8 @@ button {
     background: rgba(41, 206, 246, 0.05);
     width: 573px;
     height: 284px;
+    box-shadow: 2px 3px 4px rebeccapurple;
+
 }
 
 .choose-us-card-2 * {
@@ -455,7 +459,6 @@ button {
 
 .choose-us-card-2 h3 {
     color: #131318;
-    /* text-align: center; */
     font-size: 24px;
     font-style: normal;
     font-weight: 800;
@@ -479,6 +482,18 @@ button {
     width: 573px;
     height: 284px;
     margin: 24px auto;
+    box-shadow: 2px 3px 4px rebeccapurple;
+
+}
+.choose-us-card-1:hover{
+    box-shadow: 4px 6px 8px #FFF
+
+}
+.choose-us-card-2:hover{
+    box-shadow: 4px 6px 8px #FFF
+}
+.choose-us-card-3:hover{
+    box-shadow: 4px 6px 8px #FFF
 }
 
 .choose-us-card-3 * {
@@ -562,8 +577,6 @@ button {
 
 .video-text {
     position: relative;
-    /* top: 5px; */
-    /* left: 1200px; */
     z-index: 1;
 }
 
@@ -580,7 +593,7 @@ button {
     line-height: 36px;
 }
 
-/* Get lost section starts here  */
+/* Get lost section ends here  */
 
 
 /* newsletter section starts here */
@@ -589,7 +602,7 @@ button {
     max-width: 1200px;
     min-height: 425px;
     margin: 100px auto;
-    /* display: flex; */
+    display: flex;
     justify-content: space-between;
 }
 
@@ -610,15 +623,17 @@ button {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    margin-bottom: 48px;
+    padding-bottom: 24px;
     margin-left: 40px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);;
+    width: 393px;
 }
 
 .news-letter-form {
     border-radius: 16px;
     border: 1px solid #FF5400;
     width: 474px;
-    height: 400px;
+    height: 420px;
 }
 
 .news-letter-form * {
@@ -629,15 +644,18 @@ button {
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-top: 22px;
 }
 
 .news-letter-form input {
     width: 390px;
     padding: 16px;
     border: none;
+    /* margin-top: 24px; */
     margin-bottom: 16px;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
+    
 }
 
 .news-letter-form button {
@@ -652,7 +670,123 @@ button {
     font-weight: 700;
 }
 
+.news-letter-img img {
+    width: 672px;
+    height: 420px;
+}
 
+.news-letter-img {
+    position: relative;
+}
 
+.discount-stiker {
+    position: absolute;
+    top: 250px;
+    left: 339px;
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    text-align: center;
+
+}
+
+.discount-stiker h2 {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.discount-stiker p {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 25px;
+}
 
 /* newsletter section ends here */
+
+
+/* footer section starts */
+
+.footer-section {
+    max-width: 1400px;
+    min-height: 500px;
+    margin: 0 auto;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-details {
+    max-width: 1200px;
+    max-height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-top: 100px;
+
+}
+
+.footer-headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.footer-headline img {
+    width: 50px;
+    height: 46.673px;
+    margin-right: 15px;
+}
+
+.footer-headline h3 {
+    color: #131318;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header-description {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 30px 0;
+}
+
+.social-icon img {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    
+}
+.social-icon{
+    text-align: center;
+    padding-bottom: 50px;
+   
+}
+
+.all-rights {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+    border-top: 1px solid rgba(19, 19, 24, 0.10);;
+    padding-top: 50px;
+    width: 872px;
+    margin: 0 auto;
+}
+
+/* footer section starts */
